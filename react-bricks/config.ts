@@ -10,7 +10,10 @@ const config: types.ReactBricksConfig = {
   apiKey: process.env.API_KEY,
   pageTypes,
   bricks,
-  logo: '/logo.svg',
+  domain: 'https://howlingwolftrader.com/',
+  title: 'howling Wolf Trader',
+  logo: '/howling-wolf-trader-logo.png',
+  icon: '/howling-wolf-trader-icon.png',
   // contentClassName: 'content', // Defined dynamically
   // isDarkColorMode: ...,        // in _app.tsx
   // toggleColorMode: ...,        // to manage Dark Mode
