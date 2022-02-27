@@ -1,5 +1,3 @@
-import config from "../react-bricks/config"
-
 const ErrorNoPage = () => {
   return (
     <div className="max-w-5xl mx-auto px-6 py-20 text-gray-600">
@@ -7,7 +5,7 @@ const ErrorNoPage = () => {
         Page not found
       </h1>
       <p className="mb-6">
-        {config.title} cannot find a page for the specified slug.
+        cannot find a page for the specified slug.
       </p>
     </div>
   )
